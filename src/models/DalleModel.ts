@@ -6,7 +6,7 @@ import { MessageMedia } from 'whatsapp-web.js';
 
 import { MessageTemplates } from '../util/MessageTemplates';
 import { ENV } from '../lib/env';
-
+__vite_ssr_import_2__.Configuration
 class DalleModel extends AiModel<string> {
     public constructor() {
         super(ENV.openAIKey, 'DALLE');
